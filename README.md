@@ -73,8 +73,3 @@ Mumbai, India • BCA @ Thakur College of Engineering & Technology
 - 🏅 **Full Stack Web Development Certificate** — Udemy (2026)
 
 ---
-
-## Get in Touch
-- **Email:** [purushottambarai01@gmail.com](mailto:purushottambarai01@gmail.com)
-- **LinkedIn:** [linkedin.com/in/purushottambarai](https://linkedin.com/in/purushottambarai)
-- **Live Project:** [onshare.me](https://onshare.me)
