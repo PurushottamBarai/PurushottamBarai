@@ -8,7 +8,7 @@ Mumbai, India • BCA @ Thakur College of Engineering & Technology
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/purushottambarai)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:purushottambarai01@gmail.com)
 [![Live App: OnShare](https://img.shields.io/badge/Live_App-OnShare-00C49F?style=for-the-badge&logo=cloudflare&logoColor=white)](https://onshare.me)
-[![Live App: SnippetVault](https://img.shields.io/badge/Live_App-SnippetVault-0F766E?style=for-the-badge&logo=vercel&logoColor=white)](https://snippetvault-pi.vercel.app/)
+[![Live App: ClarifySQL](https://img.shields.io/badge/Live_App-ClarifySQL-0F766E?style=for-the-badge&logo=vercel&logoColor=white)](https://clarify-sql-xi.vercel.app/)
 
 </div>
 
@@ -30,12 +30,11 @@ Mumbai, India • BCA @ Thakur College of Engineering & Technology
 * **Dual Pairing Modes:** Direct Mode (1:1 reverse OTP, up to 10 peers) and Broadcast Mode (1:many forward OTP, up to 20 concurrent receivers).
 * Direct-to-disk chunk streaming up to 40 GB and live collaborative Notepad supporting 30+ languages.
 
-### [SnippetVault](https://snippetvault-pi.vercel.app/) | AI-Powered Developer Snippet & Knowledge Vault
+### [ClarifySQL](https://clarify-sql-xi.vercel.app/) | Natural Language MySQL Clarification & Guarded Query Engine
 
-- **Tech Stack:** React • Vite • Tailwind CSS • Node.js • Express.js • MongoDB Atlas • Groq Cloud • Google Gemini • Resend • Vercel
-- **Sub-Second AI Tagging**: Hybrid dual-LLM pipeline using Groq Cloud (`qwen-2.5`) with automatic failover to Google Gemini for real-time code analysis, contextual summaries, and automatic tag extraction in under 500ms.
-- **Enterprise Security**: Secure session management using HTTP-only cookies, JWT verification, Bcrypt password hashing, and tokenized email recovery using Resend.
-
+- **Tech Stack:** React 19 • Vite • Node.js • Express.js • MySQL / TiDB • MongoDB Atlas • Groq Cloud • Resend • Vercel
+- **Ambiguity Clarification & Schema Intelligence**: AST-driven DDL parser and schema comparator paired with Groq Cloud (`openai/gpt-oss-120b`) to validate queries directly against live MySQL structures; actively detects ambiguous business terms and prompts targeted multiple-choice clarification questions before drafting SQL to eliminate hallucinations.
+- **Guarded Execution & Enterprise Security**: Strict AST safety engine that rejects destructive statements (`DROP`, `DELETE`, `ALTER`, `TRUNCATE`), multi-statement execution, and table mismatches while enforcing read-only timeouts and row bounds. Secured via HTTP-only cookies, JWT session tokens, scrypt password hashing, GitHub/Google OAuth SSO, and Resend email delivery.
 ---
 
 ## Tech Stack & Skills
